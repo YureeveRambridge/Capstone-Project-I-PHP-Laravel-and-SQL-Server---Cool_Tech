@@ -1,0 +1,154 @@
+/* Style for body on all pages */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://imgs.search.brave.com/W25xx3bgfNfGLwl2vfJIfeD1uO967jguqRgXZrL4Li0/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC9xZXZaSVZq/LmpwZw");
+    background-position: center;
+    background-repeat: round;
+    background-size: auto;
+}
+
+/* Style for grid container main item on home page */
+.item3 {
+    grid-area: main;
+}
+
+/* Style for grid container footer item on all pages */
+.item5 {
+    grid-area: footer;
+    padding: 1%;
+}
+
+/* Layout and style for grid container */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header header header header header header"
+        "main main main main main main"
+        "footer footer footer footer footer footer";
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Style for all h1 tags */
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Style for heading on hame page */
+.homeH2 {
+    margin-left: 3%;
+    background-color: #3b3b3b;
+    width: fit-content;
+    padding: 1%;
+}
+
+.footer {
+    display: flex;
+    place-content: stretch space-evenly;
+    padding: 20px 0px;
+    background-color: #f5f5f5;
+}
+
+/* Style for aritcles on home page */
+.w3-card-4 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 500%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.w3-container {
+    background-color: #f5f5f5;
+}
+
+.articleDisplay {
+    border: #3b3b3b;
+    padding: 2%;
+    height: fit-content;
+}
+
+/* Style for div on article on article page */
+.articleItem3 {
+    grid-area: main;
+    background-color: #f5f5f5;
+    border-style: solid;
+    border-color: rgb(243, 16, 16);
+    padding: 2%;
+    border: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: fit-content;
+    border-width: 2%;
+}
+
+/* Style div on legal,  */
+.categoryItem3 {
+    grid-area: main;
+    background-color: #f5f5f5;
+    border-style: solid;
+    border-color: rgb(243, 16, 16);
+    padding: 2%;
+    border: 10%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    height: fit-content;
+    border-width: 2%;
+    text-align: center;
+}
+
+/* Style for buttons on search page */
+.searchButton{
+    background-color: #4345df; 
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+/* Style for form on search page */
+.form{
+    width: 30%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

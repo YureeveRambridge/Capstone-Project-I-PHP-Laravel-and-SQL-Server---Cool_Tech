@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+class CategoryController extends Controller
+{
+    //
+    public function category($slug){
+
+    }
+}
